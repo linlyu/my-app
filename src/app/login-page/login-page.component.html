@@ -1,0 +1,40 @@
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content loginform">
+      <div class="modal-header loginheader">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+          &times;
+        </button>
+        <h5 class="modal-title" id="myModalLabel">
+          操作员登陆
+        </h5>
+      </div>
+      <div class="modal-body">
+        <div class="namediv">
+          <div class="namelabel" align="right">
+            <span class="namelabel1">请输入操作员号：</span>
+          </div>
+          <div class="nametextdiv">
+            <input type="text" class="nametext" #nametext>
+          </div>
+        </div>
+        <div class="namediv">
+          <div class="namelabel">
+            <span class="namelabel1">请输入密码：</span>
+          </div>
+          <div class="nametextdiv">
+            <input type="password" class="nametext" #pwdtext>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer loginfooter">
+        <button type="button" class="btn btn-default closebtn" data-dismiss="modal">关闭
+        </button>
+        <button type="button" class="btn btn-primary closebtn" (click)="onClickLogin(nametext.value,pwdtext.value)" data-dismiss="modal">
+          提交更改
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+

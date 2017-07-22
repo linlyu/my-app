@@ -1,0 +1,17 @@
+<div class="right_div">
+  <div class="title">
+    <span>快捷服务</span>
+  </div>
+  <div *ngFor= "let quickservice of quickservices" >
+    <app-quick-service [quickserviceinfo]="quickservice"></app-quick-service>
+  </div>
+</div>
+<div class="seperatediv"></div>
+<div class="otherinfo">
+  <div class="title">
+    <span>其他服务</span>
+  </div>
+  <div *ngFor= "let otheritem of otherinfos" >
+    <app-other-info [otherinfo]="otheritem"></app-other-info>
+  </div>
+</div>

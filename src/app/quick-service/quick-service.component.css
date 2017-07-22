@@ -1,0 +1,43 @@
+.qserv_item{
+  background-color: #EEF0F6;
+  min-height: 91px;
+  height: 100%;
+}
+
+.picdiv{
+  background-color:  rgb( 243, 245, 250 );
+  min-height: 91px;
+  height: 100%;
+  width: 30%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+
+  float: left;
+  text-align: center;
+}
+
+.namediv{
+  background-color: white;
+  min-height: 91px;
+  height: 100%;
+  width: 70%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  float: right;
+  text-align: center;
+  vertical-align: middle;
+  display: table;
+}
+
+.servname{
+  vertical-align: middle;
+  display: table-cell;
+  font-size: x-large;
+}
+
+.serviceitem{
+  min-height: 120px;
+  height: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}

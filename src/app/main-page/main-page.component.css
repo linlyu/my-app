@@ -1,0 +1,27 @@
+.right_div{
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: table;
+  background-color: #EEF0F6;
+}
+
+.title{
+  font-size: x-large;
+  padding-left: 15px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.seperatediv{
+  height: 50px;
+}
+
+.otherinfo{
+  width: 100%;
+  background-color: #E7E9F0;
+  height: 100%;
+  display: table;
+}
+
+

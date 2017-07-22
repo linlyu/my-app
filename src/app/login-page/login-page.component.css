@@ -1,0 +1,47 @@
+.loginform{
+  border-radius: 0;
+
+}
+
+.loginheader{
+  border-top: 5px solid #2A98EB;
+}
+
+.namediv{
+  height: 30px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.namelabel{
+  height: 30px;
+  width: 200px;
+  display: table-cell;
+  text-align: right;
+}
+
+.namelabel1{
+  line-height: 30px;
+}
+
+.nametextdiv{
+  height: 30px;
+  width: 300px;
+  display: table-cell;
+}
+
+.nametext{
+  line-height: 30px;
+  width: 70%;
+}
+
+.loginfooter{
+  border-top: 10px solid white;
+  border-bottom: 80px solid white;
+  text-align: center;
+}
+
+.closebtn{
+  width: 100px;
+}
